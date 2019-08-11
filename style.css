@@ -283,6 +283,37 @@ header{
 #Layer_1, #Layer_2, #Layer_3{
   height: calc(100vh - 95px);
 }
+.back{
+	display: flex;
+	justify-content: space-around;
+	z-index: -1;
+}
+.back1 img{
+	position: absolute;
+	width: 450px;
+	height: 400px;
+	top: 30%;
+	left: 0%;
+	z-index: -1;
+}
+.back2 img{
+	position: absolute;
+	width: 450px;
+	height: 280px;
+	top: 40%;
+	left: 32%;
+	z-index: -1;
+}
+.back3 img{
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	top: 40%;
+	left: 64%;
+	z-index: -1;
+}
+
+
 
 /* მეორე სექცია */
 .layer2{
@@ -291,6 +322,8 @@ header{
 }
 
 .block1{
+	display: flex;
+	justify-content: center;
 }
 svg#Layer_12 {
   height: 100vh;
