@@ -346,3 +346,132 @@ svg#Layer_13 {
 svg#Layer_14 {
   height: 100vh;
 }
+
+/* პირველი არჩევანი */
+.slide1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.choose1{
+	position: absolute;
+	left: 25%;
+	display: flex;
+	align-items: center;
+}
+.slide1 .choose1 a{
+	/* left: 20%; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+}
+
+.slide1 .choose2 a{
+	left: 80%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+}
+.slide1 .choose1 a img{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+
+.slide1 .choose2 a img{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+
+/* არჩევანი მეორე */
+.slide2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.choose1{
+	position: absolute;
+	left: 25%;
+	display: flex;
+	align-items: center;
+}
+.slide2 .choose1 a{
+	/* left: 20%; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+}
+
+.slide2 .choose2 a{
+	left: 80%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+}
+.slide2 .choose1 a img{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+
+.slide2 .choose2 a img{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+
+
+
+
+/* არჩევანები მესამე */
+.slide3{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.choose1{
+	position: absolute;
+	left: 25%;
+	display: flex;
+	align-items: center;
+}
+.slide3 .choose1 a{
+	/* left: 20%; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+}
+
+.slide3 .choose2 a{
+	left: 80%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+}
+.slide3 .choose1 a img{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+
+.slide3 .choose2 a img{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
