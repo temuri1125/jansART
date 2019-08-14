@@ -65,7 +65,8 @@ body{
 	background: -webkit-linear-gradient(0deg, rgba(243,149,131,1) 0%, rgba(252,150,129,0.8) 40%, rgba(47,164,155,0.8) 65%, rgba(70,131,149,0.8) 100%);
 	background: linear-gradient(0deg, rgba(243,149,131,1) 0%, rgba(252,150,129,0.8) 40%, rgba(47,164,155,0.8) 65%, rgba(70,131,149,0.8) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f39583",endColorstr="#468395",GradientType=1); */
-	background: linear-gradient(to bottom, #312bbb, #863f98, #d8442c);
+	background: linear-gradient(to bottom, #FFEFE4, #E4FDFF);
+	height: 100vh;
 }
 
 /* ჰედერი */
@@ -73,13 +74,12 @@ header{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 30px 50px;
+	padding: 0px 50px 0px;
 }
-
 
 /* ლოგო */
 .headerimage{
-	height: 50px;
+	height: 90px;
 	left: 10%;
 }
 
@@ -292,6 +292,7 @@ header{
 .back1 img{
 	width: 420px;
 	height: 350px;
+	margin-bottom: 20px;
 	z-index: -1;
 	opacity: 1;
 }
@@ -301,11 +302,6 @@ header{
 	transition: 0.5s;
 }
 
-/* .content1 a svg:hover  .back .back1 img{
-	transform: scale(1);
-	opacity: 1;
-	transition: 2s;
-} */
 
 .back2 img{
 	width: 450px;
