@@ -283,37 +283,51 @@ header{
 }
 .back{
 	display: flex;
-	justify-content: space-around;
+	position: absolute;
+	justify-content: space-between;
+	justify-content: center;
 	z-index: -1;
+	top: 40%;
 }
 .back1 img{
-	position: absolute;
-	width: 450px;
-	height: 400px;
-	top: 30%;
-	left: 0%;
+	width: 420px;
+	height: 350px;
 	z-index: -1;
-	opacity: 1;
+	opacity: 0;
 }
 
+.content1 a svg:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+/* .content1 a svg:hover  .back .back1 img{
+	transform: scale(1);
+	opacity: 1;
+	transition: 2s;
+} */
 
 .back2 img{
-	position: absolute;
 	width: 450px;
 	height: 280px;
-	top: 40%;
-	left: 32%;
-	z-index: -1;
-}
-.back3 img{
-	position: absolute;
-	width: 400px;
-	height: 300px;
-	top: 40%;
-	left: 64%;
 	z-index: -1;
 }
 
+.content2 a svg:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+.back3 img{
+	width: 400px;
+	height: 300px;
+	z-index: -1;
+}
+
+.content3 a svg:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+}
 
 
 
