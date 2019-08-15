@@ -10,18 +10,29 @@ $(document).ready(function() {
 $(document).ready(function(){
   $(".button1").click(function() {
     $("#show1-1").show(0);
+    $("#buttonnext1").show(0);
     $("#show1").hide(0);
     $("show1-2").hide(0);
+    $("up1_1-1").hide(0);
   });
 });
 
 $(document).ready(function(){
   $(".button2").click(function() {
     $("#show1-2").show(0);
+    $("#buttonnext1").show(0);
     $("#show1").hide(0);
     $("#show1-1").hide(0);
+    $("up1_1-1").hide(0);
   });
 });
+
+// $(document).ready(function(){
+//   $("#buttonnext1").click(function() {
+//     $("#up1_1-1").show(0);
+//     $("#up1_1").hide(0);
+//   });
+// });
 
 
 

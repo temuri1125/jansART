@@ -301,11 +301,9 @@ header{
 .content{
   display: flex;
   justify-content: space-around;
-	  height: calc(100vh - 85px);
+ 	/* height: calc(100vh - 85px); */
 }
-.content1 .content2 .content3{
 
-}
 #Layer_1, #Layer_2, #Layer_3{
   height: calc(100vh - 85px);
 }
@@ -324,6 +322,7 @@ header{
 	z-index: -1;
 	opacity: 1;
 }
+
 
 .content1 a svg:hover{
 	transform: scale(1.1);
@@ -467,6 +466,25 @@ svg#Layer_14 {
 	height: 200px;
 	position: absolute;
 }
+
+#buttonnext1{
+	width: 70px;
+	height: 30px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	bottom: -97%;
+	right: 2%;
+	position: absolute;
+	margin-top: 5px;
+	background-color: #0bda99;
+	box-shadow: 0 0 0 2px #e7fcfd;
+	border: none;
+	color: white;
+}
+/* პირველის პირველი */
+
+
 
 /* არჩევანი მეორე */
 .slide2{
