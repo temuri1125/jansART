@@ -278,6 +278,10 @@ header{
 
 
 /* ბოდი */
+
+.layer1{
+	height: 100vh;
+}
 .headertext{
 	display: flex;
 	justify-content: center;
@@ -294,12 +298,13 @@ header{
 .content{
   display: flex;
   justify-content: space-around;
+	  height: calc(100vh - 85px);
 }
 .content1 .content2 .content3{
 
 }
 #Layer_1, #Layer_2, #Layer_3{
-  height: calc(100vh - 95px);
+  height: calc(100vh - 85px);
 }
 .back{
 	display: flex;
@@ -354,17 +359,17 @@ header{
 #up1_1{
 	display: none;
 	background: linear-gradient(to bottom, #FFEFE4, #E4FDFF);
-	margin-top: -25px;
+	margin-top: -5px;
 }
 #up1_2{
 	display: none;
 	background: linear-gradient(to bottom, #FFEFE4, #E4FDFF);
-	margin-top: -25px;
+	margin-top: -5px;
 }
 #up1_3{
 	display: none;
 	background: linear-gradient(to bottom, #FFEFE4, #E4FDFF);
-	margin-top: -25px;
+	margin-top: -5px;
 }
 
 /* პერსონაჟები */
