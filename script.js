@@ -5,7 +5,19 @@ $(document).ready(function() {
   $("#Layer_1").click(function() {
     $("#up1_1").toggle(500)
   });
+    $("#up1_1").animate({height:'100vh'});
 });
+
+$(document).ready(function(){
+  $(".button").click(function() {
+    $("#show1-1").show(500);
+    $("#show1").hide(0);
+  });
+});
+
+
+
+
 
 // არჩევანი
 // var display = document.getElementById("quoteDisplay");
@@ -28,6 +40,9 @@ $(document).ready(function() {
     $("#up1_2").toggle(500);
   });
 });
+
+
+
 // მესამე გვერდის არჩევა
 $(document).ready(function() {
   $("#Layer_3").click(function() {

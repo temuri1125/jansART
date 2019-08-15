@@ -362,6 +362,17 @@ svg#Layer_12 {
   height: 100vh;
 }
 
+.block1-1{
+	display: flex;
+	justify-content: center;
+}
+.block1-1{
+	display: none;
+}
+.block1-1 img{
+	height: 100vh;
+}
+
 .block2{
 	display: flex;
 	justify-content: center;
@@ -390,27 +401,27 @@ svg#Layer_14 {
 	display: flex;
 	align-items: center;
 }
-.slide1 .choose1 a{
+.slide1 .choose1 button{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	position: absolute;
 }
 
-.slide1 .choose2 a{
+.slide1 .choose2 button{
 	left: 73%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	position: absolute;
 }
-.slide1 .choose1 a img{
+.slide1 .choose1 button img{
 	width: 200px;
 	height: 200px;
 	position: absolute;
 }
 
-.slide1 .choose2 a img{
+.slide1 .choose2 button img{
 	width: 200px;
 	height: 200px;
 	position: absolute;
@@ -507,7 +518,7 @@ svg#Layer_14 {
 	align-items: center;
 	top: 70px;
 	left: -80px;
-	color: white;
+	color: #000000;
 	font-family: cursive
 }
 
@@ -519,6 +530,6 @@ svg#Layer_14 {
 	align-items: center;
 	top: 166%;
 	left: 66%;
-	color: white;
+	color: #000000;
 	font-family: cursive
 }
