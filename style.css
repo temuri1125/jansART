@@ -361,7 +361,7 @@ header{
 svg#Layer_12 {
   height: 100vh;
 }
-
+/* გიფები */
 .block1-1{
 	display: flex;
 	justify-content: center;
@@ -372,6 +372,19 @@ svg#Layer_12 {
 .block1-1 img{
 	height: 100vh;
 }
+
+.block1-2{
+	display: flex;
+	justify-content: center;
+}
+.block1-2{
+	display: none;
+}
+.block1-2 img{
+	height: 100vh;
+}
+/* გიფები-დ */
+
 
 .block2{
 	display: flex;

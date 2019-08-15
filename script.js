@@ -9,13 +9,20 @@ $(document).ready(function() {
 });
 
 $(document).ready(function(){
-  $(".button").click(function() {
+  $(".button1").click(function() {
     $("#show1-1").show(500);
     $("#show1").hide(0);
+    $("show1-2").hide(0);
   });
 });
 
-
+$(document).ready(function(){
+  $(".button2").click(function() {
+    $("#show1-2").show(500);
+    $("#show1").hide(0);
+    $("#show1-1").hide(0);
+  });
+});
 
 
 
