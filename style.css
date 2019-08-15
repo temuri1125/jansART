@@ -365,6 +365,7 @@ svg#Layer_12 {
 .block1-1{
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
 .block1-1{
 	display: none;
