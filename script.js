@@ -27,15 +27,13 @@ $(document).ready(function(){
 
 
 // არჩევანი
-// var display = document.getElementById("quoteDisplay");
+
+// var display = document.getElementById("quoteDisplay1");
 // var quote;
-// function choose1i() {
+// function button1() {
 //   quote = Math.floor(Math.random() * 50);
 //   display.innerHTML = quotes[quote];
-// }
-// function bestQuote() {
-//   display.innerHTML = quotes[42];
-// }
+// });
 //
 // var quotes = ["შენ გასუქდი 0.2 კილოგრამით" "შენ გასუქდი 0.3 კილოგრამით"]
 
