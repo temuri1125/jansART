@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -54,6 +55,7 @@ a{
   box-sizing: border-box;
 }
 
+
 /* ჩემი კოდი */
 html{
 	scroll-behavior: smooth;
@@ -102,6 +104,7 @@ header{
 }
 #ul1 #li1{
   list-style: none;
+	font-family: "BPG Banner Caps", sans-serif;
 }
 
 #ul1 #li1 a{
@@ -288,7 +291,7 @@ header{
 	font-size: 24px;
 	word-spacing: 10px;
 	letter-spacing: 2px;
-	font-family: cursive;
+	font-family: "BPG QuadroSquare Mtavruli", sans-serif;
 	font-style: italic;
 	color: cornflowerblue
 }
