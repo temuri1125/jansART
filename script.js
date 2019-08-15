@@ -1,5 +1,4 @@
 
-
 // პირველი გვერდი არჩევა
 $(document).ready(function() {
   $("#Layer_1").click(function() {
